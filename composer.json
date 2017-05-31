@@ -35,7 +35,10 @@
         "dist/js/*.js",
         "dist/css/*.css",
         "dist/css/*.map",
-	"scss/*.scss"
+	"scss/*.scss",
+	"scss/*.yml",
+	"scss/mixins/*.scss",
+	"scss/utilites/*.scss"
       ],
       "shim": {
         "deps": ["jquery"]

@@ -29,7 +29,7 @@
   "extra": {
     "component": {
       "scripts": [
-        "dist/js/bootstrap.js"
+        "dist/js/*.js"
       ],
       "files": [
         "dist/js/*.js",

@@ -1,7 +1,7 @@
 {
   "name": "heimrichhannot/bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "type": "component",
+  "type": "contao-component",
   "keywords": [
     "css",
     "less",
@@ -24,7 +24,8 @@
     }
   ],
   "require": {
-    "components/jquery": "<3.0"
+    "components/jquery": "<3.0",
+    "contao-components/installer": "^1.0.9"
   },
   "extra": {
     "component": {

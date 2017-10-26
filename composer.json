@@ -1,18 +1,17 @@
 {
-  "name": "heimrichhannot/bootstrap",
+  "name": "twbs/bootstrap",
   "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "type": "contao-component",
   "keywords": [
     "css",
-    "less",
+    "js",
+    "sass",
     "mobile-first",
     "responsive",
     "front-end",
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
-  "license": "MIT",
+  "homepage": "https://getbootstrap.com",
   "authors": [
     {
       "name": "Mark Otto",
@@ -23,29 +22,16 @@
       "email": "jacobthornton@gmail.com"
     }
   ],
-  "require": {
-    "contao-components/jquery": "^1.11.3",
-    "contao-components/installer": "^1.0.9"
+  "support": {
+    "issues": "https://github.com/twbs/bootstrap/issues"
   },
+  "license": "MIT",
   "extra": {
-    "component": {
-      "scripts": [
-        "dist/js/*.js"
-      ],
-      "files": [
-        "dist/js/*.js",
-        "dist/css/*.css",
-        "dist/css/*.map",
-        "scss/*.scss",
-        "scss/*.yml",
-        "scss/mixins/*.scss",
-        "scss/utilities/*.scss"
-      ],
-      "shim": {
-        "deps": [
-          "jquery"
-        ]
-      }
+    "branch-alias": {
+      "dev-master": "3.3.x-dev"
     }
+  },
+  "replace": {
+    "twitter/bootstrap": "self.version"
   }
 }

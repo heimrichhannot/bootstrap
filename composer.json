@@ -25,27 +25,12 @@
   ],
   "require": {
     "contao-components/jquery": "^1.11.3",
-    "contao-components/installer": "^1.0.9"
+    "contao-components/installer": "^1.0.9",
+    "twbs/bootstrap": "^4.0"
   },
-  "extra": {
-    "component": {
-      "scripts": [
-        "dist/js/*.js"
-      ],
-      "files": [
-        "dist/js/*.js",
-        "dist/css/*.css",
-        "dist/css/*.map",
-        "scss/*.scss",
-        "scss/*.yml",
-        "scss/mixins/*.scss",
-        "scss/utilities/*.scss"
-      ],
-      "shim": {
-        "deps": [
-          "jquery"
-        ]
-      }
-    }
+  "scripts": {
+    "post-update-cmd": [
+        "ln -snf vendor/twitter/bootstrap/ assets/bootstrap"
+    ]
   }
 }

@@ -14,7 +14,7 @@
   "homepage": "https://github.com/heimrichhannot/bootstrap",
   "license": "MIT",
   "require": {
-    "contao-components/jquery": "^3.4",
+    "contao-components/jquery": "^3.3",
     "twbs/bootstrap": "^4.0"
   },
   "scripts": {

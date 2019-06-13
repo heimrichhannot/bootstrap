@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [4.3.2]
+
+* [FIXED] composer `post-update-cmd` symlink command
+
 ## [4.3.1]
 
 * [CHANGED] removed `contao-compontent` dependency

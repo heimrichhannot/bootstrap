@@ -1,31 +1,20 @@
 {
   "name": "heimrichhannot/bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "type": "contao-component",
+  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web as contao component.",
   "keywords": [
     "css",
-    "less",
+    "js",
+    "sass",
     "mobile-first",
     "responsive",
     "front-end",
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
+  "homepage": "https://github.com/heimrichhannot/bootstrap",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Mark Otto",
-      "email": "markdotto@gmail.com"
-    },
-    {
-      "name": "Jacob Thornton",
-      "email": "jacobthornton@gmail.com"
-    }
-  ],
   "require": {
-    "contao-components/jquery": "^1.11.3",
-    "contao-components/installer": "^1.0.9",
+    "contao-components/jquery": "^3.4",
     "twbs/bootstrap": "^4.0"
   },
   "scripts": {

@@ -19,7 +19,7 @@
   },
   "scripts": {
     "post-update-cmd": [
-        "ln -snf vendor/twbs/bootstrap/ assets/bootstrap"
+        "ln -snf ../vendor/twbs/bootstrap/ assets/bootstrap"
     ]
   }
 }

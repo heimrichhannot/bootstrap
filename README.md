@@ -5,7 +5,7 @@ If you have problems with symlinking the twbs/bootstrap dependency, simply add t
 ```
 "scripts": {
     "post-update-cmd": [
-        "ln -snf vendor/twbs/bootstrap/ assets/bootstrap"
+        "ln -snf ../vendor/twbs/bootstrap/ assets/bootstrap"
     ]
 }
 ```
